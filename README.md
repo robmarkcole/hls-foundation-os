@@ -41,7 +41,7 @@ Check out the [exploration notebook](./exploration.ipynb) for a more in depth ex
 5. `pip install -e .`
 6. `pip install -U openmim`
 7. `mim install mmcv-full==1.6.2 -f https://download.openmmlab.com/mmcv/dist/{cuda_version}/{torch_version}/index.html`. Note that pre-built wheels (fast installs without needing to build) only exist for some versions of torch and CUDA. Check compatibilities here: https://mmcv.readthedocs.io/en/v1.6.2/get_started/installation.html
-    1. e.g.: `mim install mmcv-full==1.6.2 -f https://download.openmmlab.com/mmcv/dist/cu115/torch1.11.0/index.html`
+    1. e.g.: `mim install mmcv-full==1.7.1 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.1/index.html`
 
 ### Data
 
